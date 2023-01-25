@@ -8,7 +8,7 @@ body {
   width: 100vh;
   margin: 0 auto;
   background-color: #fff;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 li {
