@@ -7,5 +7,133 @@
 body {
   width: 100vh;
   margin: 0 auto;
+  background-color: #fff;
   border: 1px solid red;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+.wrapper {
+  position: relative;
+  max-width: 768px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+header {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header img {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.check {
+  display: flex;
+}
+
+.check:first-of-type {
+  margin-bottom: 20px;
+}
+
+.btn-1 {
+  background-image: url(./images/pc_chcek_off_s_20.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.btn-2 {
+  background-image: url(./images/pc_check_on_l_24.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  flex-shrink: 0;
+  display: none;
+}
+
+.btn-1.open {
+  display: block;
+}
+
+.btn-2.open {
+  display: block;
+}
+
+.txt {
+  width: 100%;
+  height: 150px;
+  overflow: scroll;
+  overflow-x: hidden;
+  border: 1px solid #dadada;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.txt P:first-of-type {
+  margin-bottom: 10px;
+}
+
+.button-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 10px;
+}
+
+.button {
+  background-color: rgb(14, 168, 14);
+  width: 50%;
+  height: 40px;
+  line-height: 40px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.button:last-of-type {
+  margin-right: 0;
+}
+
+.button a {
+  color: #fff;
+}
+
+.join {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.join p {
+  margin-right: 10px;
+}
+
+aside {
+  position: absolute;
+  top: 15px;
+  right: -100px;
 }
